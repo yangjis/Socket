@@ -33,7 +33,6 @@ public class Server {
 	
 	public void closeAll() {
 		try {
-			System.out.println("연결끊어요");
 			serverSocket.close();
 			clientSocket.close();
 			dataInputStream.close();
