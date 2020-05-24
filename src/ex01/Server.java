@@ -25,7 +25,7 @@ public class Server {
 			
 			String recvData = dataInputStream.readUTF();
 			System.out.println(recvData);
-			dataOutputStream.writeUTF("잘받앗어요");
+			dataOutputStream.writeUTF("잘받았어요");
 			
 		} catch (IOException e) {}
 		
